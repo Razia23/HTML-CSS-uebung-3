@@ -1,0 +1,121 @@
+/********/
+body {
+    background-image: linear-gradient(to left bottom,
+            darkgray,
+            skyblue,
+            white,
+            black);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/********/
+body div {
+    min-width: 80px;
+    min-height: 80px;
+}
+
+/********/
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: darkgray;
+}
+
+/********/
+header div {
+    /**width: 200px;
+    height: 100px;**/
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/********/
+header .circle {
+    background-image: radial-gradient(circle, blue, white, skyblue);
+    border-radius: 100px;
+}
+
+/********/
+header .ellipse {
+    background-image: radial-gradient(ellipse, yellow, white, gray);
+    border-radius: 150%;
+    width: 150px;
+}
+
+/********/
+header .conic {
+    background-image: conic-gradient(aqua, rgb(120, 189, 216), white, rgb(253, 203, 253));
+}
+
+/********/
+main {
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 15px darkgrey;
+    background-size: cover;
+}
+
+/********/
+main div {
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+/********/
+main .linear {
+    background-image: linear-gradient(to left bottom,
+            darkgray,
+            skyblue,
+            white,
+            black);
+}
+
+/********/
+main .conic {
+    background-image: conic-gradient(rgb(183, 255, 0), rgb(246, 253, 255), rgb(255, 192, 192), rgb(117, 17, 117));
+}
+
+/********/
+main .conic2 {
+    background-image: conic-gradient(rgb(183, 255, 0), rgb(246, 253, 255), rgb(255, 192, 192), rgb(117, 17, 117));
+}
+
+/********/
+main .radial {
+    background-image: radial-gradient(pink, violet, red);
+}
+/********/
+main .linear2 {
+    background-image: linear-gradient(to left bottom,
+            rgb(169, 169, 169),
+            rgb(21, 106, 103),
+            rgb(255, 255, 255),
+            black);
+}
+/********/
+.f-linear {
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+/********/
+.f-linear div {
+    background-image: linear-gradient(to left bottom,
+            darkgray,
+            skyblue,
+            white,
+            black);
+    box-shadow: 0px 0px 10px black;
+}
